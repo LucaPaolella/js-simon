@@ -6,6 +6,8 @@ for (let i=1; i<=5; i++) {
 }
 console.log(randomNum)
 
+document.querySelector ('h1').innerHTML = randomNum;
+
 
 /*function createBombs(nBombs, min, max) {
     const bombList = []; //0
